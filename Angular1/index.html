@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <link href="styles/Site.css" rel="stylesheet" />
+    <link href="app/HomeCtrl.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="menu">
+        <a ui-sref="home">Home</a>
+        <a ui-sref="admin">Admin</a>
+    </div>
+
+    <div ui-view></div>
+
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+
+    <script src="app/EventDispatcher.js"></script>
+    <script src="app/ContactService.js"></script>
+
+    <script src="app/HomeCtrl.js"></script>
+    <script src="app/AdminCtrl.js"></script>
+    <script src="app/ContactList.js"></script>
+</body>
+</html>

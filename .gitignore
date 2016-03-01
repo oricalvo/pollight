@@ -1,0 +1,11 @@
+*.iml
+target/
+.idea/
+*.log
+.DS_Store
+~*
+*.bak
+node_modules
+bower_components
+.vs
+*.user

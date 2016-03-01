@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "app/HomeCtrl.css",
+    "inputFile": "app/HomeCtrl.scss"
+  },
+  {
+    "outputFile": "styles/Site.css",
+    "inputFile": "styles/Site.scss"
+  }
+]
